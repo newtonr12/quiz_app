@@ -1,8 +1,4 @@
 
-
-
-
-
 const questions = [
     {
         question: "The only true wisdom is knowing you know nothing",
