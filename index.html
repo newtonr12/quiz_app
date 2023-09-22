@@ -4,11 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <div class="start-container">
         <h1>Test your knowledge of Philosophy!!!!</h1>
         <button id="start"> Begin quiz</button>
     </div>
+        <!-- When quiz starts, this section is displayed -->
+
+ <div class="quiz-container">
+    <div id="quiz">
+        <h1>Quiz App</h1>
+        
+        <p id="question"> <!-- Question dynamically added here--></p>
+        
+        <div id="choices">
+            <!-- Choices will be inserted here dynamically -->
+        </div>
+        
+        <div id="timer">Time Left: <span id="time"><!--Time added dynamically--></span></div>
+        
+        <button id="previous">Previous</button>
+        <button id="next">Next</button>
+        <button id="finish">Finish</button>
+    </div>
+</div>
+<!-- When quiz ends, results are seen and button to try again is revealed -->
+<div class="result-container">
+    <h1>Quiz Results</h1>
+    <p id="score">Your Score: </p>
+    <p id="percentage">Percentage: </p>
+    <p id="attempts">Correct Attempts: </p>
+    <p id="grade">Grade: </p>
+    
+    <button id="try-again">Try Again</button>
+</div>
 </body>
 </html>
