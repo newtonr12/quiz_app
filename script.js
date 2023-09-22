@@ -19,11 +19,11 @@ const questions = [
 ];
 
 
-
-
+const quizContainer = document.querySelector('.quiz-container')
+const resultContainer = document.querySelector('.result-container')
 
 // hide quiz and and results section on load
-
 window.addEventListener('load', () =>  {
-    
+    quizContainer.style.display = "none";
+    resultContainer.style.display = "none";
 })
