@@ -27,3 +27,14 @@ window.addEventListener('load', () =>  {
     quizContainer.style.display = "none";
     resultContainer.style.display = "none";
 })
+
+const startButton = document.getElementById("start");
+startButton.addEventListener("click", () => {
+    // Hide the start-container
+    startContainer.style.display = "none";
+    // Show the quiz-container and start the quiz
+    quizContainer.style.display = "block";
+    // Start the timer and display the first question
+    startTimer();
+    displayQuestion(currentQuestion);
+});
