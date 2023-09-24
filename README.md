@@ -1,9 +1,9 @@
-#quiz_app
+# quiz_app
 
 The Quiz App is a web-based application designed to create and take quizzes. Users can answer a series of multiple-choice questions and receive their quiz scores and grades upon completion. This Readme provides an overview of the Quiz App, its features, and how to use it.
 
 
-#Features
+# Features
 
 1. Multiple-choice Questions: The Quiz App supports multiple-choice questions with a question prompt and a set of answer choices.
 
@@ -20,6 +20,6 @@ The Quiz App is a web-based application designed to create and take quizzes. Use
 
 # Technologies Used
 
-HTML: For creating the structure of the quiz app.
-CSS: For styling the app and making it user-friendly.
-JavaScript: For implementing the quiz logic and interactivity.
+1. HTML: For creating the structure of the quiz app.
+2. CSS: For styling the app and making it user-friendly.
+3. JavaScript: For implementing the quiz logic and interactivity.
