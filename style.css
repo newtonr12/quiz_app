@@ -1,3 +1,15 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.quiz-container, .result-container {
+    
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
 .start-container {
     max-width: 600px;
     margin: 0 auto;
@@ -13,4 +25,29 @@
     margin: 10px;
     padding: 10px 20px;
     font-size: 16px;
+}
+h1 {
+    font-size: 24px;
+}
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+#timer {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+#choices {
+    text-align: left;
+}
+#choices label {
+    display: block;
+    margin-bottom: 10px;
+}
+#choices input[type="radio"] {
+    margin-right: 10px;
+}
+.result-container {
+    display: none;
 }
