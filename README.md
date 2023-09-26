@@ -23,3 +23,6 @@ The Quiz App is a web-based application designed to create and take quizzes. Use
 1. HTML: For creating the structure of the quiz app.
 2. CSS: For styling the app and making it user-friendly.
 3. JavaScript: For implementing the quiz logic and interactivity.
+
+# Bugs
+1. When navigating between question answers do not remain selected.
