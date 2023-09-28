@@ -25,4 +25,5 @@ The Quiz App is a web-based application designed to create and take quizzes. Use
 3. JavaScript: For implementing the quiz logic and interactivity.
 
 # Bugs
-1. When navigating between question answers do not remain selected.
+1. When navigating between questions, answers do not remain selected.
+2. Score increments infinitely.
