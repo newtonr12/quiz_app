@@ -91,6 +91,7 @@ let displayQuestion = (questionIndex) => {
 }
 
 previousButton.addEventListener("click", () => {
+    checkAnswer()
     if (currentQuestion > 0) {
         currentQuestion--;
         displayQuestion(currentQuestion);
